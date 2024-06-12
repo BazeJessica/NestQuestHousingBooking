@@ -42,14 +42,13 @@ span{
 
 }
 .propty{
+    background-color: rgb(248, 244, 244);
+    color: black;
     border-radius: 30px;
     display: inline-block;
     margin: 5px;
     padding: 10px 20px;
     cursor: pointer;
-}
-.propty.reminder{
-    border-left:5px solid green;
 }
 .propty h3{
     display: flex;

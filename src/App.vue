@@ -22,89 +22,20 @@ export default {
     }
     
   },
+  methods: {
+    async fetchProperties(){
+      const res = await fetch('http://localhost:5000/properties')
 
-  created(){
-    this.properties=[
-      {
-        id:1,
-        image:"./assets/istockphoto-1140134578-612x612.jpg",
-        title:"2578 Folsom street, san francisco, CA, 94110",
-        type:"Private  Room",
-        amount:"$3200.00",
-        vectors:{
-          roomNo:"⛺4",
-          Showers:"🛀shower",
-          Ratings:"👍3",
-        }
+      const data = await res.json()
 
-      },
-      {
-        id:2,
-        image:"./assets/istockphoto-119854218-612x612.jpg",
-        title:"2578 Folsom street, san francisco, CA, 94110",
-        type:"Shared  Room",
-        amount:"$2130.00",
-        vectors:{
-          roomNo:"⛺2",
-          Showers:"🛀shower",
-          Ratings:"👍 4",
-        }
+      return data
 
-      },
-      {
-        id:3,
-        image:"./assets/istockphoto-531345355-612x612.jpg",
-       title:"2578 Folsom street, san francisco, CA, 94110",
-       type:"Shared  Room",
-        amount:"$4312.00",
-        vectors:{
-          roomNo:"⛺3",
-          Showers:"🛀shower",
-          Ratings:"👍 5",
-        }
+    }
+  },
 
-      },
-      {
-        id:4,
-        image:"./assets/istockphoto-531345355-612x612.jpg",
-       title:"2578 Folsom street, san francisco, CA, 94110",
-       type:"Private  Room",
-        amount:"$4312.00",
-        vectors:{
-          roomNo:"⛺2",
-          Showers:"🛀shower",
-          Ratings:"👍 4",
-        }
-
-      },
-      {
-        id:5,
-        image:"./assets/istockphoto-531345355-612x612.jpg",
-       title:"2578 Folsom street, san francisco, CA, 94110",
-       type:"Private Room",
-        amount:"$2312.00",
-        vectors:{
-          roomNo:"⛺5",
-          Showers:"🛀shower",
-          Ratings:"👍 2",
-        }
-
-      },
-      {
-        id:5,
-        image:"./assets/istockphoto-531345355-612x612.jpg",
-       title:"2578 Folsom street, san francisco, CA, 94110",
-       type:"Shared  Room",
-        amount:"$1212.00",
-        vectors:{
-          roomNo:"⛺3",
-          Showers:"🛀shower",
-          Ratings:"👍 5",
-        }
-
-      }
+  async created(){
     
-    ]
+    this.properties = await this.fetchProperties()
   }
 }
 </script>

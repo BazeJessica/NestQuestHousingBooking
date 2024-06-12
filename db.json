@@ -1,0 +1,83 @@
+{
+    "properties": [
+    {
+      "id":1,
+      "image":"../nestquest/src/assets/background.jpg",
+      "title":"2578 Folsom street, san francisco, CA, 94110",
+      "type":"Private  Room",
+      "amount":"$3200.00",
+      "vectors":{
+        "roomNo":"⛺4",
+        "Showers":"🛀shower",
+        "Ratings":"👍3"
+      }
+
+    },
+    {
+      "id":2,
+      "image":"../nestquest/src/assets/file2.jpg",
+      "title":"2578 Folsom street, san francisco, CA, 94110",
+      "type":"Shared  Room",
+      "amount":"$2130.00",
+      "vectors":{
+        "roomNo":"⛺2",
+        "Showers":"🛀shower",
+        "Ratings":"👍 4"
+      }
+
+    },
+    {
+      "id":3,
+      "image":"../nestquest/src/assets/file3.jpg",
+     "title":"2578 Folsom street, san francisco, CA, 94110",
+     "type":"Shared  Room",
+      "amount":"$4312.00",
+      "vectors":{
+        "roomNo":"⛺3",
+        "Showers":"🛀shower",
+        "Ratings":"👍 5"
+      }
+
+    },
+    {
+      "id":4,
+      "image":"../nestquest/src/assets/file4.jpg",
+     "title":"2578 Folsom street, san francisco, CA, 94110",
+     "type":"Private  Room",
+      "amount":"$4612.00",
+      "vectors":{
+        "roomNo":"⛺2",
+        "Showers":"🛀shower",
+        "Ratings":"👍 4"
+      }
+
+    },
+    {
+      "id":5,
+      "image":"../nestquest/src/assets/file5.jpg",
+     "title":"2578 Folsom street, san francisco, CA, 94110",
+     "type":"Private Room",
+      "amount":"$2312.00",
+      "vectors":{
+        "roomNo":"⛺5",
+        "Showers":"🛀shower",
+        "Ratings":"👍 2"
+      }
+
+    },
+    {
+      "id":5,
+      "image":"../nestquest/src/assets/file6.jpg",
+     "title":"2578 Folsom street, san francisco, CA, 94110",
+     "type":"Shared  Room",
+      "amount":"$1212.00",
+      "vectors":{
+        "roomNo":"⛺3",
+        "Showers":"🛀shower",
+        "Ratings":"👍 5"
+      }
+
+    }
+  
+  ]
+}

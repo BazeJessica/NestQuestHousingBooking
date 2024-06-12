@@ -32,7 +32,7 @@ export default {
 <style scoped>
 header {
  
-  background-image: url("../assets/istockphoto-1140134578-612x612.jpg");
+  background-image: url("../assets/file6.jpg");
   background-size: cover;
   height: 70vh;
   align-items: center;

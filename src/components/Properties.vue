@@ -38,10 +38,11 @@ export default {
 h2{
     padding-top: 50px;
     padding-left: 20px;
+    color: #fff;
 }
 div{
      margin: 30px auto;
-     background-color: rgba(124, 123, 123, 0.5);
+     background-color: rgba(153, 148, 148, 0.5);
 }
 .btn {
     
@@ -78,9 +79,8 @@ div{
 }
 
 .property-item {
-  
-  padding: 20px;
-  border-radius: 30px;
+  padding: 30px;
+  /* border-radius: 30px; */
  
 }
 </style>
