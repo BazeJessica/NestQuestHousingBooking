@@ -1,16 +1,19 @@
 <template>
 
-<div>
+<div class="container">
     <Button text="View All Property" color="red" class="btn"/>
     <h2>List of Properties</h2>
     <div class="property-grid">
         <div :key="property.id"  v-for="property in properties" class="proper-item">
         <Property :property="property" />
         </div>
-    </div>
+   
     
     <Button text="previous" color="#000" class="btn"/>
     <Button text="next" color="#000" class="btn"/>
+
+  </div>
+    
 </div>
 
     
@@ -35,29 +38,38 @@ export default {
 </script>
 
 <style scoped>
-h2{
-    padding-top: 50px;
-    padding-left: 20px;
-    color: #fff;
+.container{
+ background-color: #F5F5F5;
+ background-size: cover;
 }
-div{
-     margin: 30px auto;
-     background-color: rgba(153, 148, 148, 0.5);
+h2 {
+  padding-top: 100px;
+  padding-left: 50px;
+  font-size: 30px;
+  color: #000000;
+  box-sizing: border-box; /* add this property */
 }
+
+div {
+  margin: 20px;
+  /* background-color: #F5F5F5; */
+  box-sizing: border-box; /* add this property */
+}
+
 .btn {
-    
   display: inline-block;
   color: #fff;
+  background-color: #F4511E;
   border: none;
-  padding: 10px 20px;
-  margin: 5px;
+  padding:20px;
+  margin: 30px;
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
   font-size: 15px;
   font-family: inherit;
   float: right;
-
+  box-sizing: border-box; /* add this property */
 }
 
 .btn:focus {
@@ -71,16 +83,21 @@ div{
 .btn-block {
   display: block;
   width: 100%;
+  box-sizing: border-box; /* add this property */
 }
+
 .property-grid {
+  margin: 20px;
+  /* background-color: #FFFFFF; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
+  grid-gap: 2px;
+  box-sizing: border-box; /* add this property */
 }
 
 .property-item {
-  padding: 30px;
-  /* border-radius: 30px; */
- 
+  padding: 10px; 
+  box-sizing: border-box; /* add this property */
 }
 </style>
+}

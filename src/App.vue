@@ -1,18 +1,18 @@
 <template>
   <div>
-    <Header />
+    <Home />
     <Properties :properties="properties"  />
   </div>
 </template>
 
 <script>
-import Header from './components/Header.vue'
+import Home from './components/Home.vue'
 import Properties from "./components/Properties.vue";
 export default {
   name: 'App',
 
   components: {
-    Header,
+    Home,
     Properties
   },
 
@@ -47,17 +47,11 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #e5e5e5;
-  margin: 50px auto;
-  max-width: 1000px;
+  color: #faf9f9;
+  margin: auto 30px;
+  /* max-width: 2000px; */
+  
 }
 
-img {
-  height: 40px;
-}
 
-h1 {
-  text-align: center;
-  font-size: 30px;
-}
 </style>
