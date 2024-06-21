@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="container">
     <Home />
     <Properties :properties="properties"  />
   </div>
@@ -43,15 +43,23 @@ export default {
 
 
 <style>
+body{
+  margin: 0;
+  padding: 0;
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #faf9f9;
-  margin: auto 30px;
-  /* max-width: 2000px; */
-  
+  margin: 40px auto; /* add some margin to create space around the app */
+  padding: 20px; /* add some padding to create space inside the app */
+  display: flex; /* use flexbox to align content vertically */
+  flex-direction: column; /* stack elements vertically */
+  align-items: center; /* center elements horizontally */
+
 }
 
-
+  
 </style>
