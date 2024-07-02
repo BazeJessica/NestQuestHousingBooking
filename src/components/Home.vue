@@ -1,7 +1,7 @@
 <template>
   <header>
     <Nav />
-
+    <hr/>
    <h1>The Most Affortable
       <br>
       Place To Stay In The
@@ -30,7 +30,7 @@ header {
    margin-right: 20px;
   background-image: url("https://wallpapercave.com/wp/wp7113919.jpg");
   background-size: cover;
-  height: 60vh;
+  height: 70vh;
   background-color: rgb(0,0,0,0.5);
   filter: brightness(0.9); /* adjust the brightness level (0.8 is 80% of the original brightness) */
   color: #f1efef;
@@ -38,12 +38,6 @@ header {
   flex-direction: column; /* stack elements vertically */
   padding: 10px;}
 
-nav{
-  margin-top: 15px;
-  /* margin-top: -60px; */
-   /* display: flex; */
-   /* align-items: center; */
-}
 
 .logo {
   display:flex;

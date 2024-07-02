@@ -1,7 +1,7 @@
 <template>
     <div class="logo">
       <div>
-        <img alt="Housing logo" src="/assets/file.png" />
+        <img alt="Housing logo" src="https://th.bing.com/th/id/OIP.Rq-5VJotaBDf4pfn3pJZBQHaF7?w=200&h=180&c=7&r=0&o=5&pid=1.7" />
       </div>
       
         <nav>
@@ -25,8 +25,11 @@ export default {
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
-
+/* logo{
+    margin-top: 20px;
+} */
 nav{
+    padding-top: 40px;
     margin-left: 500px;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
@@ -41,7 +44,7 @@ nav{
 }
 
 img{
-    height: 80px;
+    padding-top: 40px;
     margin-left: 80px;
 
 }
