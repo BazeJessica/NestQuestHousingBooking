@@ -12,7 +12,6 @@
             </div>
             
             <div class="base">
-              
                     <a href="#">ABOUT US</a>
                     <a href="#">CONTACT US</a>
                     <a href="#">HELP</a>
@@ -41,14 +40,14 @@ export default{
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
 
 footer{
-     padding-top:500px;
+     padding-top:100px;
 }
+
 .base{
    
-    margin-left: 400px;
     font-family: "DM Sans", sans-serif;
     font-optical-sizing: auto;
-    font-size: 24px;
+    font-size: 17px;
     font-style:normal;
     display: flex; /* add flexbox to align nav items */
     justify-content: space-between; /* space out nav items */
@@ -63,21 +62,23 @@ footer{
 
 }
 img{
-    height:800px;
+    height:500px;
+    margin-right: 250px;
 }
 
 .logoTest{
     font-family: "Assistant", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 24px;
+  font-weight: 17px;
   font-style: normal; 
   font-optical-sizing: auto;
     font-size: 24px;
     font-style:normal;
     display: flex; /* add flexbox to align nav items */
-    justify-content: space-between; /* space out nav items */
+     /* space out nav items */
     align-items: center; /* center nav items vertically */
      margin-top: 50px; 
+     padding-left: 60px;
 
 }
 </style>

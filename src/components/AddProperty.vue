@@ -86,6 +86,10 @@ export default {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  padding: 25px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
 }
 p{
     font-family: "Inter", sans-serif;

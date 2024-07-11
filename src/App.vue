@@ -3,7 +3,8 @@
     <Home />
     <Properties :properties="properties"  />
     <AddProperty />
-    <Footer/>
+    <Employee />
+    <Footer />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Home from './components/Home.vue'
 import Properties from "./components/Properties.vue";
 import AddProperty from './components/AddProperty.vue'
 import Footer from './components/Footer.vue'
+import Employee from "./components/Employees.vue"
 export default {
   name: 'App',
 
@@ -20,6 +22,7 @@ export default {
     Properties,
     AddProperty,
     Footer,
+    Employee,
   },
 
   data(){
