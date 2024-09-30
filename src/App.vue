@@ -13,7 +13,7 @@ import Home from './components/Home.vue'
 import Properties from "./components/Properties.vue";
 import AddProperty from './components/AddProperty.vue'
 import Footer from './components/Footer.vue'
-import Employee from "./components/Employees.vue"
+import Employee from "./components/SiteView.vue"
 export default {
   name: 'App',
 

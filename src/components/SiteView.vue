@@ -7,9 +7,8 @@
          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum nisl et nunc facilisis, a commodo eros mollis. Nunc vel pellentesque est. Curabitur at odio sit amet libero vulputate efficitur ac nec justo. Nulla vitae mauris quam. Nulla quam massa, faucibus id pretium ac, mattis eu velit. Donec sed risus a lacus fringilla finibus.
         </p>
         </div>
-        
         <div class="iframe">
-        <iframe width="780" height="638" src="https://www.youtube.com/embed/TuyZN5u4Dqw" title="100 New Modern Living Room TV Wall Designs I Inspirational Ideas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="780" height="438" src="https://www.youtube.com/embed/TuyZN5u4Dqw" title="100 New Modern Living Room TV Wall Designs I Inspirational Ideas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
          </div>
     </div>
 </template>
@@ -40,6 +39,11 @@ p{
   position: relative;
 }
 
+.iframe{
+  padding-top: 50px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
 /* .image-peek img {
   position: absolute;
   top: 0;

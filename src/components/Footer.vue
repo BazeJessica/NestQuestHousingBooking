@@ -3,12 +3,13 @@
             
              <hr/>
              <div class="logoTest">
-                <img alt="Housing logo" src="https://th.bing.com/th/id/OIP.Rq-5VJotaBDf4pfn3pJZBQHaF7?w=200&h=180&c=7&r=0&o=5&pid=1.7" />
+                <image alt="Housing logo" src="https://th.bing.com/th/id/OIP.Rq-5VJotaBDf4pfn3pJZBQHaF7?w=200&h=180&c=7&r=0&o=5&pid=1.7" />
             <aside>
                 <p>    345 Faulconer Drive, Suite 4 • Charlottesville, CA, 12345</p>
                 <p> (123) 456-7890         <span>(123) 456-7890 </span>  </p>
+
             </aside>
-               
+            
             </div>
             
             <div class="base">
@@ -18,10 +19,10 @@
                     <a href="#">PRIVACY POLICY</a>
                     <a href="#">DISCLAIMER</a>
                 
-                <p>Copyright @ 2020 Minimunlivingcost. All rights reserved</p>
+                <p >Copyright  @ 2020 Minimunlivingcost. All rights reserved</p>
 
             </div>
-            
+        
         </footer>
 
   
@@ -32,6 +33,11 @@
 
 export default{
     name:'FooterComponent',
+    data(){
+        return{
+
+        }
+    }
 }
 </script>
 

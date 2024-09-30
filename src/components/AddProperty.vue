@@ -46,7 +46,11 @@
         <label> Description</label>
         <textarea name="textAres" cols="100" rows="20" v-model="description">Enter Description</textarea>
       </div>
-     
+     <div>
+      <input type="file" name="fileupload" class="upload">
+     </div>
+      
+   
       <div class=" btn">
         <input type="submit" value="Add New Property">
       
@@ -126,7 +130,15 @@ p{
     color: black;
 
 } */
-
+.upload {
+  display: block; /* to center the input */
+  margin: 0 auto; /* to center the input */
+  width: 40%; /* set the width to 40% */
+  height: 60px; /* set the height to 60px */
+  padding: 20px; /* add some padding */
+  margin-bottom: 30;
+  font-size: 40px; /* set the font size */
+}
 .btn {
   display: block; /* to center the button */
   margin: 0 auto; /* to center the button */

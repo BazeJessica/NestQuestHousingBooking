@@ -2,11 +2,14 @@
   <header>
     <Nav />
     <hr/>
+    <marquee behavior="scrolling" direction="right"> Welcome to our platform</marquee>
    <h1>The Most Affortable
       <br>
       Place To Stay In The
        <br>
       San Franciso Bay Area</h1>
+
+      
   </header>
 </template>
 
@@ -65,7 +68,7 @@ nav a:hover {
 }
 
 h1{
-  margin-top: 100px;
+  margin-top: 50px;
   margin-left: 100px;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
